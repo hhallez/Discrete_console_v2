@@ -1,0 +1,17 @@
+[Unit]
+Description=Discrete Monitoring Service
+After=network.target
+
+[Service]
+WorkingDirectory=/home/pi/Discrete_console/bin
+ExecStart=/home/pi/Discrete_console/bin/Discrete_console
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=discrete
+User=root
+Group=root
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

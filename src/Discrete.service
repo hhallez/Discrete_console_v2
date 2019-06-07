@@ -1,0 +1,12 @@
+[Service]
+WorkingDirectory=/home/pi/Discrete_console-Relv2
+ExecStart=node /home/pi/Discrete_console-Relv2/Discrete_console
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=discrete
+User=root
+Group=root
+Environment=NODE_ENV=production
+[Install]
+WantedBy=multi-user.target
