@@ -3,8 +3,8 @@ Description=Discrete Monitoring Service
 After=network.target
 
 [Service]
-WorkingDirectory=/home/pi/Discrete_console/bin
-ExecStart=/home/pi/Discrete_console/bin/Discrete_console
+WorkingDirectory=/home/pi/Discrete_console_v2/bin
+ExecStart=/home/pi/Discrete_console_v2/bin/Discrete_console
 Restart=always
 StandardOutput=syslog
 StandardError=syslog
