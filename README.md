@@ -2,6 +2,7 @@
 
 This firmware is to be executed on a Raspberry Pi with a MikroBUS hat attached.
 The following click boards are to be clicked on:
+
     * Wheather Click, based on BME280 (Bosch Sensortec)
     * Tem&Hum2 Click, based on Si7034 (Silicon Labs)
     * Accel5 Click, based on the BMA400
