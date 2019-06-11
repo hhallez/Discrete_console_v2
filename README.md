@@ -26,6 +26,7 @@ The following click boards are to be clicked on:
 * Adapt the file `Distrete.service`
 
 Alter the appropriate paths after `ExecStart` and `WorkingDirectory`
+
     * `ExecStart=<absolute path to Discrete firmware>/bin/Discrete_console`
     * `WorkingDirectory=<absolute path to Discrete firmware>/bin/``
 
