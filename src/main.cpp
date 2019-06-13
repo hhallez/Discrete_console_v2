@@ -55,7 +55,7 @@ int main(int argc, char* argv[])
     sensor_setting = settings.value("gas_sensor").toString();
 
 
-    printf("Init drivers");
+    printf("Init drivers \r\n");
     PER_CTRLR_init_drivers();
 
     MIKROE_2467_data data1;

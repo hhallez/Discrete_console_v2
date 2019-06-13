@@ -1,7 +1,3 @@
-//
-// Created by krist on 29/11/2018.
-//
-
 #include "MIKROE_2467.h"
 
 
